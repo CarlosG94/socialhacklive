@@ -10,16 +10,14 @@ body {
 	margin: 0;
 	min-height: 100%;
 	padding: 0;
-  	background: url(../img/hack.jpg) no-repeat center center fixed;
-  	background-size: cover;
-  	font-family: 'Open Sans', sans-serif;
+	background: url(../img/hack.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* ================================= Classes =================================*/
 
-.img-center {
-
-}
+/* CUSTOM CLASSES */
 
 .bg-white {
   padding: 20px;
@@ -33,11 +31,22 @@ body {
 }
 
 #sponsors {
-
+  margin-bottom: 30px;
 }
 
 #top h2 {
 	text-align: center;
 	font-size: 5em;
 	margin: 50px auto 30px auto;
+}
+
+/* =============================== Media Queries =============================*/
+
+@media (max-width: 992px) {
+  .sp-col { /* sponsors columns */
+    padding: 30px 0px 15px 0px;
+  }
+  .row {
+    margin: 0px !important;
+  }
 }
