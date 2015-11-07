@@ -23,6 +23,10 @@ body {
   background-color: rgba(255,255,255,0.7);
 }
 
+.bg-white-1 {
+  background-color: rgba(255,255,255,0.5);
+}
+
 /* =================================== ID's ==================================*/
 
 #page {
@@ -39,6 +43,7 @@ body {
 
 #info {
   width: 100%;
+  color: #000;
 }
 
 #top h2 {
