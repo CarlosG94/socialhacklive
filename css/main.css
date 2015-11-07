@@ -1,9 +1,16 @@
+
+html{
+  height: 100%;
+}
+
 body {
 	margin: 0;
+  min-height: 100%;
 	padding: 0;
+  background: url(../img/hack.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 #page {
-	background: url(../img/hack.jpg) no-repeat center center fixed;
-	background-size: cover;
+	
 }
