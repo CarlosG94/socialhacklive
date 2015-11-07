@@ -33,6 +33,10 @@ body {
   margin-bottom: 30px;
 }
 
+#sponsor-title {
+  padding-left: 40px;
+}
+
 #info {
   width: 100%;
 }
@@ -51,5 +55,8 @@ body {
   }
   .row {
     margin: 0px !important;
+  }
+  #sponsor-title {
+    padding-left: 0px;
   }
 }
